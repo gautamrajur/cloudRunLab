@@ -10,6 +10,17 @@ A containerized Flask application deployed on Google Cloud Run.
 | `/health` | Health check — returns `{"status": "healthy"}` |
 | `/info` | Returns Cloud Run metadata (service name, revision, region) |
 
+## Screenshots
+
+**`/` — Home**
+![root](screenshots/root.png)
+
+**`/health` — Health check**
+![health](screenshots/health.png)
+
+**`/info` — Service info**
+![info](screenshots/info.png)
+
 ## Stack
 
 - Python / Flask + Gunicorn
